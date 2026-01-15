@@ -1,0 +1,456 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 1vw;
+    height: 5vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+.header_background {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_header {
+    width: 6vw;
+}
+
+.haut {
+    position: relative;
+}
+
+.header_background {
+    width: 100%;
+    position: relative; 
+    z-index: 1;         
+}
+
+.yanis_attou {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;      
+    color: white;
+    font-size: 4vw;
+    font-family: Inter;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.titre {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 7vw;
+    margin-bottom: 1vw;
+}
+
+.projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7vw; 
+    margin-right: 7vw; 
+}
+
+.long_metrage {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.long_metrage_fichiers {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2vw;
+    width: 100%;
+    margin-top: 5vw;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    justify-content: center;
+}
+
+.long_metrage_fichiers_making_of {
+    margin-right: 0vw;
+}
+
+.long_metrage_fichiers_plans {
+    margin-left: 20vw;
+    width: 30.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.long_metrage_titre {
+    font-size: 7vw;
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 7vw;
+    margin-bottom: 0;
+}
+
+.long_metrage_sous_titre {
+    font-size: 2vw;
+    font-family: Inter;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.long_metrage_fichiers_making_of_titre {
+    margin: 0;
+}
+
+.long_metrage_fichiers_plans_titre {
+    margin: 0;
+}
+
+.long_metrage_avis {
+    text-align: center;
+    margin: 5vw;
+    font-size: 1.2vw;
+    font-family: Montserrat;
+    margin-bottom: 7vw;
+}
+
+.affiches_titre {
+    font-size: 7vw;
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.site_web_presentation {
+    display: flex;
+    flex-direction: row;
+}
+
+.site_web {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 7vw;
+}
+
+.shootings_photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.site_web_presentation_image {
+    width: 35vw;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    border-radius: 0.5vw;
+}
+
+
+.site_web_presentation_image:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.site_web_presentation_texte {
+    width: 27vw;
+    font-size: 1.2vw;
+    font-family: Montserrat;
+    padding-right: 8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.affiches_images_cyberharcelement {
+    width: 20vw;
+    margin-right: 3vw;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.affiches_images_interstellar {
+    width: 20vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.affiches_images_vogue {
+    width: 20vw;
+    margin-left: 3vw;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.affiches_images {
+    margin-bottom: 7vw;
+}
+
+.long_metrage_fichiers_making_of {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.long_metrage_fichiers_making_of_image_1_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.long_metrage_fichiers_making_of_image_1 {
+    margin-left: 0.8vw;
+    margin-top: 1.6vw;
+    width: 14.5vw;
+}
+
+.long_metrage_fichiers_making_of_image_2 {
+    margin-right: 0.8vw;
+    margin-top: 1.6vw;
+    width: 14.5vw;
+}
+
+.long_metrage_fichiers_making_of_image_3 {
+    margin-top: 1.6vw;
+    width: 30.5vw;
+}
+
+.long_metrage_fichiers_plans_image_1 {
+    width: 30.5vw;
+    margin-top: 1.6vw
+}
+
+.long_metrage_fichiers_plans_image_2 {
+    width: 30.5vw;
+    margin-top: -0.5vw;
+    
+}
+
+
+
+
+.logo_projets {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7vw;
+}
+
+.logo_projets_long_metrage {
+    width: 4vw;
+    opacity: 0.2;
+    transition: 0.3s ease;
+    padding: 2vw;
+}
+
+.logo_projets_long_metrage:hover {
+    opacity: 1;
+}
+
+
+.logo_projets_affiches {
+    width: 4vw;
+    opacity: 0.2;
+    transition: 0.3s ease;
+    padding: 2vw;
+}
+
+.logo_projets_affiches:hover {
+    opacity: 1;
+}
+
+
+.logo_projets_site_web {
+    width: 4vw;
+    opacity: 0.2;
+    transition: 0.3s ease;
+    padding: 2vw;
+}
+
+.logo_projets_site_web:hover {
+    opacity: 1;
+}
+
+.logo_projets_shootings_photos {
+    width: 4vw;
+    opacity: 0.2;
+    transition: 0.3s ease;
+    padding: 2vw;
+}
+
+.logo_projets_shootings_photos:hover {
+    opacity: 1;
+}
+
+
+.shootings_photos_titre {
+    width: 80vw;
+    display: flex;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: Montserrat;
+    justify-content: space-between;
+}
+
+.shootings_photos_images {
+    width: 85vw;
+    position: relative;
+    height: 65vw;  
+}
+
+.shootings_photos_images_1_2_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    position: absolute;
+    width: 85vw;
+    margin-top: 2vw;
+}
+
+.shootings_photos_images_4_5_6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin-top: 30vw;
+    position: absolute;
+    width: 85vw;
+}
+
+.shootings_photos_images_1 {
+    height: 22vw;
+    width: auto;
+    object-fit: cover;
+}
+
+.shootings_photos_images_2 {
+    height: 27vw;
+    width: auto;
+    object-fit: cover;
+}
+
+.shootings_photos_images_3 {
+    height: 22vw;
+    width: auto;
+    object-fit: cover;
+}
+
+.shootings_photos_images_4 {
+    height: 20w;
+    width: auto;
+    object-fit: cover;
+   
+}
+
+.shootings_photos_images_5 {
+    height: 20vw;
+    width: auto;
+    object-fit: cover;
+    margin-top: 7vw;
+    margin-right: 1.8vw;
+    margin-left: 3.9vw;
+}
+
+.shootings_photos_images_6 {
+    height: 27vw;
+    width: auto;
+    object-fit: cover;
+}
+
+.logo_footer {
+    height: 10vw;
+    width: auto;
+    object-fit: cover;
+    
+}
+
+footer {
+    background-color: black;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.contact {
+    color: white;
+    margin-right: 30vw;
+    font-family: Montserrat;
+    font-size: 1vw;
+}
+
+
+.contact_mail_titre {
+    margin: 0;
+    margin-bottom: 0.2vw;
+}
+
+.contact_mail_texte {
+    margin: 0;
+    font-size: 1vw;
+}
+
+.contact_num_titre {
+    margin: 0;
+    margin-bottom: 0.2vw;
+}
+
+.contact_num_texte {
+    margin: 0;
+}
+
+.contact_linkedin_titre {
+    margin: 0;
+    margin-bottom: 0.2vw;
+}
+
+.contact_linkedin_texte {
+    margin: 0;
+}
+
+
+.contact_mail {
+    margin-bottom: 1.5vw;
+}
+
+.contact_num {
+    margin-bottom: 1.5vw;
+}
+
+.contact_linkedin_lien {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
