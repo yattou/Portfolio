@@ -153,7 +153,7 @@ hr {
 }
 
 
-.site_web_presentation {
+.site_web_presentation_hugo_attou {
     display: flex;
     flex-direction: row;
 }
@@ -171,7 +171,7 @@ hr {
     align-items: center; 
 }
 
-.site_web_presentation_image {
+.site_web_presentation_hugo_attou_image {
     width: 35vw;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.2s ease, transform 0.2s ease;
@@ -179,13 +179,13 @@ hr {
 }
 
 
-.site_web_presentation_image:hover {
+.site_web_presentation_hugo_attou_image:hover {
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 
 
-.site_web_presentation_texte {
+.site_web_presentation_hugo_attou_texte {
     width: 27vw;
     font-size: 1.2vw;
     font-family: Montserrat;
@@ -368,9 +368,9 @@ hr {
 }
 
 .shootings_photos_images_4 {
-    height: 20w;
     width: auto;
     object-fit: cover;
+    width: 20vw;
    
 }
 
